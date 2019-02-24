@@ -1,0 +1,50 @@
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.left{
+    position: relative;
+    text-align: left;
+    color: white;
+}
+.right{
+    position: relative;
+    text-align: right;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+img.homeimage{
+	max-width:100%;
+	height:auto;
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg);
+	-webkit-transform:rotate(180deg);
+	animation: fadein 1.5s;
+}
+@keyframes fadein{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+img.stufflinks{
+	float:left;
+	max-width:50%;
+	height:auto;
+	transition: filter .2s ease-in-out;
+	-webkit-filter: grayscale(100%); 
+	filter: grayscale(100%);
+}
+img.stufflinks:hover{
+	-webkit-filter: grayscale(0%); 
+	filter: grayscale(0%); 
+}
+h1 {color:white;font-family:"Courier New",Courier,monospace;text-align:center;font-size:7vw}
+h2 {text-align:center;color:White;font-family:"Courier New",Courier,monospace;font-size:4vw}
+h3 {text-align:center;color:White;font-family:"Courier New",Courier,monospace;font-size:2vw}
