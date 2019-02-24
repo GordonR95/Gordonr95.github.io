@@ -1,5 +1,3 @@
-
-
 .container {
     position: relative;
     text-align: center;
@@ -44,7 +42,9 @@ img.stufflinks{
 img.stufflinks:hover{
 	-webkit-filter: grayscale(0%); 
 	filter: grayscale(0%); 
+	
 }
+body { margin:0;}
 h1 {color:white;font-family:"Courier New",Courier,monospace;text-align:center;font-size:7vw}
 h2 {text-align:center;color:White;font-family:"Courier New",Courier,monospace;font-size:4vw}
-h3 {text-align:center;color:White;font-family:"Courier New",Courier,monospace;font-size:2vw}
+h3 {text-align:center;color:White;font-family:"Courier New",Courier,monospace;font-size:4vw}
